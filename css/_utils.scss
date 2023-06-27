@@ -1,0 +1,187 @@
+/* Utils */
+
+/* Item Scaling */
+.jogg-w100 {
+  width: 80%;
+  img {
+    width: 100%;
+  }
+}
+.jogg-itemXs {
+  width: 24%;
+  img {
+    width: 100%;
+  }
+}
+.jogg-itemSm {
+  width: 32%;
+  img {
+    width: 100%;
+  }
+}
+.jogg-itemMd {
+  width: 48%;
+  img {
+    width: 100%;
+  }
+}
+.jogg-itemLg {
+  width: 66%;
+  img {
+    width: 100%;
+  }
+}
+
+/* Font Settings */
+
+.jogg-fwb {
+  font-weight: bold;
+}
+.jogg-textLight {
+  color: #fff;
+}
+.jogg-textBrown {
+  color: #7d6c60;
+}
+
+.jogg-textLg {
+  font-size: 50px;
+}
+.jogg-textMd {
+  font-size: 29px;
+}
+.jogg-textReg {
+  font-size: 16px;
+}
+.jogg-textSm {
+  font-size: 12px;
+}
+.jogg-textXs {
+  font-size: 9px;
+}
+.jogg-tal {
+  text-align: left;
+}
+.jogg-tac {
+  text-align: center;
+}
+.jogg-tar {
+  text-align: right;
+}
+.jogg-sectionHeader {
+  margin: 10px 0;
+}
+.jogg-textShadow {
+  text-shadow: 0px 0px 10px #000;
+}
+.jogg-textItalic {
+  font-style: italic;
+}
+/* Spacing */
+
+img.jogg-divided {
+  margin: 15px 0;
+}
+.jogg-section {
+  padding: 50px 0;
+}
+
+.jogg-mt {
+  margin-top: 30px;
+}
+
+/* Shaping */
+
+.jogg-bordered {
+  padding: 10px;
+}
+.jogg-borderSm {
+  border: 1px solid #000;
+}
+.jogg-bradCommon {
+  border-radius: 9px;
+}
+.jogg-round {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.jogg-h500 {
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+.jogg-h900 {
+  height: 900px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+/* Coloring */
+
+.jogg-noBg {
+  background: none !important;
+}
+
+.jogg-filterDark {
+  position: relative;
+  z-index: 2;
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+  }
+}
+
+.jogg-filterContent {
+  position: relative;
+  z-index: 3;
+}
+
+/* Flex */
+
+.jogg-dFlexBtwCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.jogg-dFlexBtw {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.jogg-dFlexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Positioning */
+
+.jogg-holder {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+}
+.jogg-mla {
+  display: flex;
+  justify-content: flex-end;
+}

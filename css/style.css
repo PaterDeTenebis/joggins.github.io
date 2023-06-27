@@ -1,0 +1,378 @@
+/*utils*/ /* Utils */
+/* Item Scaling */
+.jogg-w100 {
+  width: 80%;
+}
+.jogg-w100 img {
+  width: 100%;
+}
+
+.jogg-itemXs {
+  width: 24%;
+}
+.jogg-itemXs img {
+  width: 100%;
+}
+
+.jogg-itemSm {
+  width: 32%;
+}
+.jogg-itemSm img {
+  width: 100%;
+}
+
+.jogg-itemMd {
+  width: 48%;
+}
+.jogg-itemMd img {
+  width: 100%;
+}
+
+.jogg-itemLg {
+  width: 66%;
+}
+.jogg-itemLg img {
+  width: 100%;
+}
+
+/* Font Settings */
+.jogg-fwb {
+  font-weight: bold;
+}
+
+.jogg-textLight {
+  color: #fff;
+}
+
+.jogg-textBrown {
+  color: #7d6c60;
+}
+
+.jogg-textLg {
+  font-size: 50px;
+}
+
+.jogg-textMd {
+  font-size: 29px;
+}
+
+.jogg-textReg {
+  font-size: 16px;
+}
+
+.jogg-textSm {
+  font-size: 12px;
+}
+
+.jogg-textXs {
+  font-size: 9px;
+}
+
+.jogg-tal {
+  text-align: left;
+}
+
+.jogg-tac {
+  text-align: center;
+}
+
+.jogg-tar {
+  text-align: right;
+}
+
+.jogg-sectionHeader {
+  margin: 10px 0;
+}
+
+.jogg-textShadow {
+  text-shadow: 0px 0px 10px #000;
+}
+
+.jogg-textItalic {
+  font-style: italic;
+}
+
+/* Spacing */
+img.jogg-divided {
+  margin: 15px 0;
+}
+
+.jogg-section {
+  padding: 50px 0;
+}
+
+.jogg-mt {
+  margin-top: 30px;
+}
+
+/* Shaping */
+.jogg-bordered {
+  padding: 10px;
+}
+
+.jogg-borderSm {
+  border: 1px solid #000;
+}
+
+.jogg-bradCommon {
+  border-radius: 9px;
+}
+
+.jogg-round {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.jogg-h500 {
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jogg-h500 img {
+  height: 100%;
+  width: auto;
+}
+
+.jogg-h900 {
+  height: 900px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jogg-h900 img {
+  height: 100%;
+  width: auto;
+}
+
+/* Coloring */
+.jogg-noBg {
+  background: none !important;
+}
+
+.jogg-filterDark {
+  position: relative;
+  z-index: 2;
+}
+.jogg-filterDark::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jogg-filterContent {
+  position: relative;
+  z-index: 3;
+}
+
+/* Flex */
+.jogg-dFlexBtwCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.jogg-dFlexBtw {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.jogg-dFlexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Positioning */
+.jogg-holder {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+}
+
+.jogg-mla {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*Sectional*/
+body {
+  background: #1a0707;
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+}
+
+.jogg-header ul.navbar-nav {
+  margin-left: auto;
+}
+
+a.navbar-brand {
+  width: 100px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a.navbar-brand img {
+  width: 100%;
+}
+
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #fff;
+  text-shadow: 0px 0px 15px #f14445;
+}
+
+.jogg-blogItem {
+  margin: 20px 0;
+}
+
+.jogg-blogSign {
+  margin: 10px 0;
+}
+
+.jogg-blogText {
+  max-height: 290px;
+  overflow: hidden;
+}
+
+.jogg-navbar-toggler {
+  border-color: #fff;
+}
+
+.jogg-btnLink {
+  border: 2px solid #f14445;
+  color: #f14445;
+}
+.jogg-btnLink:hover {
+  border: 2px solid #f14445;
+  color: #f14445;
+  box-shadow: 0px 0px 15px #f14445;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: #000;
+  border-radius: 9px;
+}
+
+.jogg-bgImg1 {
+  background-image: url(../img/javier-contreras-GiwgAQML5o4-unsplash.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jogg-bgImg2 {
+  background-image: url(../img/imgonline-com-ua-CompressBySize-jlTFjbydRX.webp);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jogg-bgImg3 {
+  background-image: url(../img/lucas-lenzi-zeT_i6av9rU-unsplash.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jogg-bgImg4 {
+  background-image: url(../img/luis-villasmil-Y6TOX6LnIGs-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jogg-bgImg5 {
+  background-image: url(../img/motoki-tonn-RF6NLFcWsxk-unsplash.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jogg-bgImg6 {
+  background-image: url(../img/imgonline-com-ua-CompressBySize-RrQ4nQU4GpeYougz.webp);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jogg-bgImg7 {
+  background-image: url(../img/yohann-libot-P5vrWFD4LXg-unsplash.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jogg-bgImg8 {
+  background-image: url(../img/yohann-libot-YoP228fqh5o-unsplash.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jogg-bgColor1 {
+  background-color: #ca7f7f;
+}
+
+.jogg-bgColor2 {
+  background-color: #c0deb2;
+}
+
+.table > :not(caption) > * > * {
+  background: none;
+  color: #fff;
+}
+
+/*media*/
+@media screen and (max-width: 991px) {
+  .jogg-header .jogg-navbar {
+    border-bottom: none;
+  }
+  .jogg-itemSm,
+  .jogg-itemXs,
+  .jogg-itemMd {
+    margin: 10px 0;
+  }
+  .jogg-itemMd,
+  .jogg-itemLg {
+    width: 100%;
+  }
+  .jogg-itemSm,
+  .jogg-itemXs {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .jogg-itemSm,
+  .jogg-itemXs {
+    width: 100%;
+  }
+  .jogg-h500, .jogg-h900 {
+    height: auto;
+  }
+  .jogg-h500 img, .jogg-h900 img {
+    height: 100%;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

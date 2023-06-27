@@ -1,0 +1,32 @@
+@media screen and (max-width: 991px) {
+  .jogg-header .jogg-navbar {
+    border-bottom: none;
+  }
+  .jogg-itemSm,
+  .jogg-itemXs,
+  .jogg-itemMd {
+    margin: 10px 0;
+  }
+  .jogg-itemMd,
+  .jogg-itemLg {
+    width: 100%;
+  }
+  .jogg-itemSm,
+  .jogg-itemXs {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .jogg-itemSm,
+  .jogg-itemXs {
+    width: 100%;
+  }
+  .jogg-h500, .jogg-h900 {
+    height: auto;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
